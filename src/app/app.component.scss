@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  height: 15vh;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid dimgray;
+  font-family: Montserrat;
+  .h-logo {
+    width: 15vw;
+  }
+  .h-titles {
+    text-align: center;
+    color: darkmagenta;
+    .h-t-hiring-text {
+      margin: 0rem 0rem 0.5rem 0rem;
+      font-size: 2rem;
+    }
+    .h-t-text {
+      margin: 0rem 0rem 0.5rem 0rem;
+    }
+  }
+  .h-referral-image {
+    width: 16vw;
+    height: 16vh;
+    padding-bottom: 1rem;
+  }
+}
+
+.technical-stack-container {
+  background: #BBFFDD;
+  padding: 1rem 0rem 5rem 0rem;
+  font-family: Montserrat;
+  .t-s-header {
+    text-align: center;
+    color: forestgreen;
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+  .t-s-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .t-s-cards {
+      width: 40vw;
+      text-align: center;
+      border: 1px solid darkmagenta;
+      border-radius: 5rem;
+      box-shadow: 0px 2px 15px 0px;
+      margin-top: 2rem;
+      .t-s-title {
+        margin: 1.5rem 0rem 0.5rem 0rem;
+        color: darkmagenta;
+      }
+      .t-s-technologies {
+        margin: 0rem 0rem 1.5rem 0rem;
+        color: forestgreen;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.location-container {
+  background: #DDFFEE;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: darkmagenta;
+  font-family: Montserrat;
+  .location-city {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+  .location-adress {
+    margin-top: 0.5rem;
+  }
+  .location-divider {
+    max-height: 6.5rem;
+  }
+}
+
+.referral-link {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 1.5rem;
+}
